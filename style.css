@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #888;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    padding: 2rem 2.5rem;
+   background: linear-gradient(grey,rgb(25, 1, 1));
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+h2{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+}
+h3{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: salmon;
+    padding: 1rem;
+}
+h4{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: salmon; 
+    padding: 1rem;
+}
+p{
+    font-size: 1rem;
+    line-height: 1;
+}
+section + section  {
+    margin-top: 2rem;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 0.5rem;
+}
+.skills li{
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.container{ 
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid:gap 1rem;
+    padding: 3rem;
+    gap: 5rem;
+    background-color: white;
+}
+.profile{
+    text-align: center;
+}
+.profile p{
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.profile img{
+    border-radius: 9999px;
+    border: 2px solid #999;
+    height: 15rem;
+    width: 15rem;   
+}
+.contact ul{
+    border-bottom: 1px solid #888;
+}
+.contact li{
+    text-align: right;
+    padding: 1rem;
+    border-top: 1px solid #888;
+    
+}
+.skills > ul{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid:gap 2rem;
+    padding: 1rem;
+    gap: 1rem
+    ;
+}
+.education{
+    text-align: left;
+    padding-top: 2rem;
+    margin-bottom: -0.99rem;
+}
+right_side h4{
+    padding: 1rem;
+}
+.edu{
+    border-left: 1px solid #888;
+    padding: 2rem;  
+}
+.edu p{
+    padding: 1rem;  
+}
+.edu h5{
+    padding: 1rem; 
+    font-style: italic; 
+}
+.experience{
+    text-align: left;
+}
+
+
